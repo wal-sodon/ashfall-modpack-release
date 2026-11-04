@@ -8,6 +8,21 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.1.0: Weapon handling, stun mode and the Flamethrower (`Ashfall-10.1.0.mrpack`)
+**Added**
+- **Weapon weight:** the weapon in your hand slows you, from −3% for pistols and light melee to −15% for the Storm Repeater and Flamethrower.
+- **Draw time:** blasters and the Flamethrower take 0.3–0.9 s to draw before they can fire, with a READYING bar on the HUD. Melee weapons stay instant.
+- **Stun mode:** the Spark Pistol, Volt Sidearm and Ion Rifle switch between damage and stun with **C**. A stun shot freezes a zombie for 3 s, deals no damage, makes no noise and costs 3× the energy.
+- **Flamethrower:** refuel with Lighter Fluid using the reload key. It sets crowds of zombies alight, makes noise zombies hear from 24 blocks, and never sets blocks on fire or hurts pets, survivors or players.
+
+**Changed**
+- Zombies attack whoever is nearest, a player or a survivor, so survivors following you can be bitten.
+- You can't reload while a blaster is drawing or between semi-auto shots.
+- Carry On can only pick up containers: chests, barrels, shulker boxes and Supply Lockers.
+
+**Removed**
+- Picking up mobs, players and other blocks with Carry On.
+
 ### 10.0.0: Survivors (`Ashfall-10.0.0.mrpack`)
 **Added**
 - Survivors: living NPCs you can find, recruit and settle at your Bunker Core.
