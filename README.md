@@ -8,6 +8,10 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.2.4: Guards and Plasma Blades (`Ashfall-10.2.4.mrpack`)
+**Fixed**
+- Guards no longer take Plasma Blades. In a guard's hands the blade never used charge, never wore its crystal and always hit at full power. A guard already holding one hands it back to its leader, or puts it down where it never despawns.
+
 ### 10.2.3: Sealed ward fix (`Ashfall-10.2.3.mrpack`)
 **Fixed**
 - Zombies, bosses included, could wear down the sealed iron doors of Patient Zero's deep ward and open it before Mission was reclaimed. Those doors now hold until the ward unseals, then wear like any other door.
