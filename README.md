@@ -8,6 +8,16 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.2.1: Polished Arms (`Ashfall-10.2.1.mrpack`)
+**Added**
+- **Ashfall Polished Arms:** an optional resource pack that repaints these as dark machined gunmetal at twice the texture detail:
+  - the seven blasters;
+  - both Plasma Blades;
+  - the Flamethrower;
+  - the Arc Charge.
+
+  Knurled rubber grips, screws and sharp highlights replace the rust and duct tape. Each weapon keeps its shape, glow colour and stats. Turn it on in **Options → Resource Packs**; it's off by default.
+
 ### 10.2.0: Block wear, the Arc Charge and a friendly fire switch (`Ashfall-10.2.0.mrpack`)
 **Added**
 - **Block wear:** zombies now wear down fortified blocks (Reinforced Planks, Barricades, reinforced, iron and copper doors, iron bars, iron blocks, obsidian). A horde on one spot gets through in seconds to a minute.
