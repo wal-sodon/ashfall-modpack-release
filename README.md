@@ -8,6 +8,10 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.2.3: Sealed ward fix (`Ashfall-10.2.3.mrpack`)
+**Fixed**
+- Zombies, bosses included, could wear down the sealed iron doors of Patient Zero's deep ward and open it before Mission was reclaimed. Those doors now hold until the ward unseals, then wear like any other door.
+
 ### 10.2.2: Balance fixes (`Ashfall-10.2.2.mrpack`)
 **Changed**
 - **Storm Repeater:** fires 400 a minute (was 600) and uses 2 energy and 7 heat per shot, so it no longer beats every other gun at everything. The Lancer cools faster.
