@@ -8,6 +8,20 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.2.2: Balance fixes (`Ashfall-10.2.2.mrpack`)
+**Changed**
+- **Storm Repeater:** fires 400 a minute (was 600) and uses 2 energy and 7 heat per shot, so it no longer beats every other gun at everything. The Lancer cools faster.
+- **Overcharger:** adds less heat (×1.2, was ×1.4), so it's no longer a downgrade.
+- **Pipe Wrench:** swings faster, a real alternative to the Machete.
+- **Energy Cell:** costs 4 Wire Spools and a Battery (was 8 spools).
+- **Guards:** deal a player's damage per hit and have 30 health, so they can hold their own against walkers.
+- **Mechanics:** repair one step of wear every 30 s instead of fully restoring a block, so walls under attack can still fall.
+- **Scavengers:** keep only a quarter of the Antibiotics they find.
+- **Repairs:** each one takes off 45 wear, with a 1 s cooldown between repairs. Wood takes a plank and 2 Nails, and obsidian takes Scrap Metal instead of cobblestone. Worn-out iron and Reinforced doors no longer drop scrap.
+
+**Fixed**
+- The guide's horde-tier days and the zombie-cap text ("day 120") now match the game.
+
 ### 10.2.1: Polished Arms (`Ashfall-10.2.1.mrpack`)
 **Added**
 - **Ashfall Polished Arms:** an optional resource pack that repaints these as dark machined gunmetal at twice the texture detail:
