@@ -8,6 +8,29 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.2.0: Block wear, the Arc Charge and a friendly fire switch (`Ashfall-10.2.0.mrpack`)
+**Added**
+- **Block wear:** zombies now wear down fortified blocks (Reinforced Planks, Barricades, reinforced, iron and copper doors, iron bars, iron blocks, obsidian). A horde on one spot gets through in seconds to a minute.
+  - A worn-out block gives way to a weaker one: Reinforced Planks become oak planks, doors and Barricades break, iron and obsidian become cobblestone.
+  - Cracks show the wear, and Jade shows it as "Worn 40%".
+  - **Repairs:** right-click a worn block with Scrap Metal (metal), a plank and Nails (wood) or cobblestone (obsidian) to take some wear off.
+  - Mechanic survivors repair worn blocks in their claim from the Supply Lockers.
+  - After a horde night, the Bunker Core warns you at dawn if blocks in its claim are badly worn.
+  - Wear stays on a block when you break and re-place it, or push it with a piston.
+- **Arc Charge:** a thrown stun grenade (Battery, Scrap Electronics and Duct Tape make 2). One second after it sticks, it stuns every hostile mob it can see within 5 blocks for 3 s. It does no damage, but the bang carries 32 blocks. It's also found in police stations, supply drops and Strongboxes.
+- **Friendly fire switch:** a new **Friendly fire** game rule, off by default (a button in the Game Rules screen, or `/gamerule ashfall:friendly_fire true`). With it on, players can hurt pets, the Flamethrower burns other players and Arc Charges stun pets. Survivors stay protected either way.
+
+**Changed**
+- Fortified blocks are no longer unbreakable to zombies, so bases need upkeep.
+- Survivors refuse bottled water and golden apples as food, and ignore lava, fire, suffocation and falling blocks.
+- Rescues skip players whose group is full, and rescues and holdouts say when the world has no room for more survivors.
+- Medics treat only their own group.
+- Carry On can no longer pick up Supply Lockers.
+
+**Fixed**
+- A horde wave that only partly spawned lost the rest of its zombies. They now still spawn.
+- Some graffiti marks dropped out of the map index.
+
 ### 10.1.0: Weapon handling, stun mode and the Flamethrower (`Ashfall-10.1.0.mrpack`)
 **Added**
 - **Weapon weight:** the weapon in your hand slows you, from −3% for pistols and light melee to −15% for the Storm Repeater and Flamethrower.
