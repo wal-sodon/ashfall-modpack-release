@@ -203,6 +203,17 @@ Ashfall is built on the work of many mod authors. The `.mrpack` contains no thir
 | [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | thexaero | All rights reserved | client (optional) |
 | [e4mc](https://modrinth.com/mod/e4mc) | vgskye | MIT | client (optional) |
 
+### Recommended shaders (not included)
+
+The pack doesn't ship shaders, but these suit Ashfall's dead city well. Add them yourself if you want them:
+
+| Add-on | Author | Licence | Notes |
+|---|---|---|---|
+| [Iris Shaders](https://modrinth.com/mod/iris) | coderbot | LGPL-3.0-only | Shader loader; needs Sodium (already in the pack). Install the 26.3 build into the instance's mods. Its Toggle Shaders key (**K** by default, see Controls → Iris) turns shaders on or off in game |
+| [Spooklementary](https://modrinth.com/shader/spooklementary) | SpacEagle17 | [Complementary License](https://github.com/SpacEagle17/Spooklementary/blob/main/License.txt) | A moody, foggy edit of Complementary Shaders. Put the zip in `shaderpacks/` and pick it under Video Settings → Shader Packs |
+
+If an Iris key clashes with an Ashfall key (Ashfall uses R to reload, C for stun mode and G for the Grid Map), rebind it under Controls.
+
 ### Bundled in Ashfall's own jars
 
 | Work | Author | Licence | Used for |
