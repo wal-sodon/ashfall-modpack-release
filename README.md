@@ -8,6 +8,18 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
 
+### 10.3.1: Recipe book, home-only beds and a horde fix (`Ashfall-10.3.1.mrpack`)
+**Added**
+- **Recipe book:** every Ashfall recipe is in the vanilla recipe book, unlocked when you pick up one of its ingredients. The two special recipes (socketing a crystal, fitting a Dampener) can't be shown there.
+
+**Changed**
+- **Any wood:** recipes that took one kind of wood now take any. Reinforced Planks accept planks of any wood.
+- **Beds only at home:** you can only sleep, and set your respawn point with a bed, inside your own or your party's Bunker Core claim. Traveler's Backpack sleeping bags follow the same rule. A host can turn this off with `/gamerule ashfall:bunker_beds_only false`.
+- **Police stations:** Weapon Parts are rarer, about 14% per container (was about 24%).
+
+**Fixed**
+- **Horde nights could bring no zombies at all near a base in the city.** Zombies living inside buildings used up the zombie limit, so the waves never spawned. Building zombies no longer count against horde waves.
+
 ### 10.3.0: Licence clean-up and Ashfall torch burnout (`Ashfall-10.3.0.mrpack`)
 **Added**
 - **Torch burnout, now Ashfall's own:** a torch you place burns for about 12 minutes, then becomes a burnt-out torch that gives no light. Relight it by right-clicking with Matches, Lighter Fluid or flint and steel (uses one use). Torches already in the world, soul torches and held torches never burn out.
