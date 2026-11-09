@@ -6,7 +6,15 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 ## Releases
 
-Newest first. The version is MAJOR.MEDIUM.MINOR: major for a new core system, medium for new features or a world-generation change, minor for fixes and tweaks.
+Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.PATCH: major when it breaks existing worlds or overhauls a core system, minor for new features or a world-generation change, patch for fixes and balance tweaks. 1.0.0 is the same pack as 10.3.1, renumbered; older entries keep their old numbers.
+
+### 1.1.0: Build in reclaimed compounds, plus two fixes (`Ashfall-1.1.0.mrpack`)
+**Added**
+- **Reclaimed compounds are a home for everyone.** A reclaimed substation's compound now works like a Bunker Core claim for every player: build, break, place and use items, sleep in beds (which sets your respawn point) and set up Rain Collectors. Nothing spawns there and zombies still break nothing. The safehouse stays a shelter nobody can build in. Compounds you reclaimed before this update open up the next time the world loads.
+
+**Fixed**
+- **A repaired Substation Core could vanish.** Leaving and coming back, or reopening the world, removed a repaired core, leaving the district stuck at Repaired with nothing to load cells into. Torches you placed in landmarks (the safehouse too) and the Grid Lamps of reclaimed substations were removed the same way. If your core is already gone, an admin can put it back at the spot `/ashfall grid status` shows with `/setblock <x> <y> <z> ashfall:substation_core`; the district keeps its progress.
+- **Zombies couldn't hurt survivors or pets inside a claim.** They chased and hit them without doing damage. Now they can, so wall your survivors and pets in on horde nights. Players still can't hurt them.
 
 ### 10.3.1: Recipe book, home-only beds and a horde fix (`Ashfall-10.3.1.mrpack`)
 **Added**
