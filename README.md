@@ -8,7 +8,20 @@ A zombie-survival modpack for Minecraft 26.3 (Fabric). Scavenge a dead city, arm
 
 Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.PATCH: major when it breaks existing worlds or overhauls a core system, minor for new features or a world-generation change, patch for fixes and balance tweaks. 1.0.0 is the same pack as 10.3.1, renumbered; older entries keep their old numbers.
 
+### World compatibility
+
+A world can move between releases that generate the world the same way: chunks you haven't explored yet come out the same as they would have. Moving across a world-generation change still loads, but new chunks generate differently from the ones you already have, so the city can have seams. Each release below lists the releases it shares world generation with.
+
+| World generation | Releases |
+|---|---|
+| Random police stations (since 9.10.0) | 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0 |
+| Flatter city (9.6.0 to 9.9.1) | 1.0.0-rc15 (9.9.1), 1.0.0-rc14 (9.9.0) |
+
+10.3.0 also removed three mods (Zombified Player, Simple Voice Chat, Realistic Torches): a world from before it loads, but items and blocks from those mods disappear.
+
 ### 1.1.0: Build in reclaimed compounds, plus two fixes (`Ashfall-1.1.0.mrpack`)
+**World generation:** same as 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Reclaimed compounds are a home for everyone.** A reclaimed substation's compound now works like a Bunker Core claim for every player: build, break, place and use items, sleep in beds (which sets your respawn point) and set up Rain Collectors. Nothing spawns there and zombies still break nothing. The safehouse stays a shelter nobody can build in. Compounds you reclaimed before this update open up the next time the world loads.
 
@@ -17,6 +30,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - **Zombies couldn't hurt survivors or pets inside a claim.** They chased and hit them without doing damage. Now they can, so wall your survivors and pets in on horde nights. Players still can't hurt them.
 
 ### 10.3.1: Recipe book, home-only beds and a horde fix (`Ashfall-10.3.1.mrpack`)
+**World generation:** same as 1.1.0, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Recipe book:** every Ashfall recipe is in the vanilla recipe book, unlocked when you pick up one of its ingredients. The two special recipes (socketing a crystal, fitting a Dampener) can't be shown there.
 
@@ -29,6 +44,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - **Horde nights could bring no zombies at all near a base in the city.** Zombies living inside buildings used up the zombie limit, so the waves never spawned. Building zombies no longer count against horde waves.
 
 ### 10.3.0: Licence clean-up and Ashfall torch burnout (`Ashfall-10.3.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Torch burnout, now Ashfall's own:** a torch you place burns for about 12 minutes, then becomes a burnt-out torch that gives no light. Relight it by right-clicking with Matches, Lighter Fluid or flint and steel (uses one use). Torches already in the world, soul torches and held torches never burn out.
 - A **Credits** section in this README, listing every mod in the pack with its author and licence.
@@ -42,14 +59,20 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - In a world updated from 10.2.x, torches that Realistic Torches had put out come back lit and won't burn out; newly placed torches do.
 
 ### 10.2.4: Guards and Plasma Blades (`Ashfall-10.2.4.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Fixed**
 - Guards no longer take Plasma Blades. In a guard's hands the blade never used charge, never wore its crystal and always hit at full power. A guard already holding one hands it back to its leader, or puts it down where it never despawns.
 
 ### 10.2.3: Sealed ward fix (`Ashfall-10.2.3.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Fixed**
 - Zombies, bosses included, could wear down the sealed iron doors of Patient Zero's deep ward and open it before Mission was reclaimed. Those doors now hold until the ward unseals, then wear like any other door.
 
 ### 10.2.2: Balance fixes (`Ashfall-10.2.2.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Changed**
 - **Storm Repeater:** fires 400 a minute (was 600) and uses 2 energy and 7 heat per shot, so it no longer beats every other gun at everything. The Lancer cools faster.
 - **Overcharger:** adds less heat (×1.2, was ×1.4), so it's no longer a downgrade.
@@ -64,6 +87,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - The guide's horde-tier days and the zombie-cap text ("day 120") now match the game.
 
 ### 10.2.1: Polished Arms (`Ashfall-10.2.1.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Ashfall Polished Arms:** an optional resource pack that repaints these as dark machined gunmetal at twice the texture detail:
   - the seven blasters;
@@ -74,6 +99,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
   Knurled rubber grips, screws and sharp highlights replace the rust and duct tape. Each weapon keeps its shape, glow colour and stats. Turn it on in **Options → Resource Packs**; it's off by default.
 
 ### 10.2.0: Block wear, the Arc Charge and a friendly fire switch (`Ashfall-10.2.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Block wear:** zombies now wear down fortified blocks (Reinforced Planks, Barricades, reinforced, iron and copper doors, iron bars, iron blocks, obsidian). A horde on one spot gets through in seconds to a minute.
   - A worn-out block gives way to a weaker one: Reinforced Planks become oak planks, doors and Barricades break, iron and obsidian become cobblestone.
@@ -97,6 +124,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - Some graffiti marks dropped out of the map index.
 
 ### 10.1.0: Weapon handling, stun mode and the Flamethrower (`Ashfall-10.1.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Weapon weight:** the weapon in your hand slows you, from −3% for pistols and light melee to −15% for the Storm Repeater and Flamethrower.
 - **Draw time:** blasters and the Flamethrower take 0.3–0.9 s to draw before they can fire, with a READYING bar on the HUD. Melee weapons stay instant.
@@ -112,6 +141,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - Picking up mobs, players and other blocks with Carry On.
 
 ### 10.0.0: Survivors (`Ashfall-10.0.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 9.12.0, 9.11.0, 9.10.0.
+
 **Added**
 - Survivors: living NPCs you can find, recruit and settle at your Bunker Core.
   - **Finding them:** from day 7, finished distress radio calls leave a survivor, and a few buildings hide one on an upper floor who calls out when you come near.
@@ -128,6 +159,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - Traders: reclaimed districts get a Trader at their substation, with their own stock that refills every 3 days.
 
 ### 9.12.0: Graffiti, dogs, keys and safes (`Ashfall-9.12.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.11.0, 9.10.0.
+
 **Added**
 - **Spray Can:** paints Cleared, Danger, Loot, Safehouse and arrow marks on walls. Cleared marks warn you if zombies are still inside and go stale when the building refills. Marks show on the Grid Map for your party.
 - **Dogs:**
@@ -140,6 +173,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - Weapon Parts are slightly more common in police stations, workshops and town halls.
 
 ### 9.11.0: Radio jobs, traps and lures (`Ashfall-9.11.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.10.0.
+
 **Added**
 - **Shortwave Set:** picks up timed jobs aimed at real buildings: find a stash, clear a nest, or hold a distress beacon. Rewards grow with district danger.
 - **Traps and lures:** Rattle Box (a wind-up noise lure), Tripline Alarm (warns you when zombies pass) and Spike Strip (slows and hurts zombies, wears out).
@@ -148,12 +183,16 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - Horde nights: a wave that couldn't find a place to spawn was lost, so some horde nights had no zombies at all. Waves now retry until they spawn.
 
 ### 9.10.0: Random police stations (`Ashfall-9.10.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0.
+
 **Changed**
 - Police stations now generate randomly in every district except the wasteland. Only the Downtown station has the armory cache.
 - This changes world generation: in worlds made with earlier versions, newly explored areas will generate differently.
 - Versions are now numbered MAJOR.MEDIUM.MINOR. Under the new scheme, 1.0.0-rc15 is 9.9.1.
 
 ### 1.0.0-rc15 (9.9.1): Balance tweaks (`Ashfall-1.0.0-rc15.mrpack`)
+**World generation:** same as 1.0.0-rc14. Not the same as 9.10.0 and later (random police stations).
+
 **Changed**
 - Bandages work like food: eating animation, 1.6 seconds to use.
 - The bicycle is slower, about 11 blocks a second.
@@ -164,6 +203,8 @@ Newest first. Since 1.0.0 the version follows semantic versioning, MAJOR.MINOR.P
 - The "Not usable yet" tooltip.
 
 ### 1.0.0-rc14 (9.9.0): Quiet weapons (`Ashfall-1.0.0-rc14.mrpack`)
+**World generation:** same as 1.0.0-rc15. Not the same as 9.10.0 and later (random police stations).
+
 **Added**
 - Melee weapons that make no noise: Pipe Wrench, Scrap Machete and Rebar Spear.
 - Nail Launcher and Nails: a quiet ranged weapon.
