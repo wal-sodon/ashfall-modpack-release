@@ -14,13 +14,19 @@ A world can move between releases that generate the world the same way: chunks y
 
 | World generation | Releases |
 |---|---|
-| Random police stations (since 9.10.0) | 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0 |
+| Random police stations (since 9.10.0) | 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0 |
 | Flatter city (9.6.0 to 9.9.1) | 1.0.0-rc15 (9.9.1), 1.0.0-rc14 (9.9.0) |
 
 10.3.0 also removed three mods (Zombified Player, Simple Voice Chat, Realistic Torches): a world from before it loads, but items and blocks from those mods disappear.
 
+### 1.2.0: Hordes break into sealed bunkers (`Ashfall-1.2.0.mrpack`)
+**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+
+**Changed**
+- **Sealing yourself in no longer stops a horde night.** A wave sent at your Bunker Core used to wait outside a sealed base until it saw someone. Now a wave that finds no way in stands at your wall for a few seconds and then breaks through toward the core. Fortified blocks still only wear down, so layer your walls and repair them between waves. Once a zombie sees you or a survivor, it goes for them instead. With no core, or more than 96 blocks from it, a wave hunts you as before. Zombies still can't place blocks inside the claim.
+
 ### 1.1.0: Build in reclaimed compounds, plus two fixes (`Ashfall-1.1.0.mrpack`)
-**World generation:** same as 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Reclaimed compounds are a home for everyone.** A reclaimed substation's compound now works like a Bunker Core claim for every player: build, break, place and use items, sleep in beds (which sets your respawn point) and set up Rain Collectors. Nothing spawns there and zombies still break nothing. The safehouse stays a shelter nobody can build in. Compounds you reclaimed before this update open up the next time the world loads.
@@ -30,7 +36,7 @@ A world can move between releases that generate the world the same way: chunks y
 - **Zombies couldn't hurt survivors or pets inside a claim.** They chased and hit them without doing damage. Now they can, so wall your survivors and pets in on horde nights. Players still can't hurt them.
 
 ### 10.3.1: Recipe book, home-only beds and a horde fix (`Ashfall-10.3.1.mrpack`)
-**World generation:** same as 1.1.0, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Recipe book:** every Ashfall recipe is in the vanilla recipe book, unlocked when you pick up one of its ingredients. The two special recipes (socketing a crystal, fitting a Dampener) can't be shown there.
@@ -44,7 +50,7 @@ A world can move between releases that generate the world the same way: chunks y
 - **Horde nights could bring no zombies at all near a base in the city.** Zombies living inside buildings used up the zombie limit, so the waves never spawned. Building zombies no longer count against horde waves.
 
 ### 10.3.0: Licence clean-up and Ashfall torch burnout (`Ashfall-10.3.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Torch burnout, now Ashfall's own:** a torch you place burns for about 12 minutes, then becomes a burnt-out torch that gives no light. Relight it by right-clicking with Matches, Lighter Fluid or flint and steel (uses one use). Torches already in the world, soul torches and held torches never burn out.
@@ -59,19 +65,19 @@ A world can move between releases that generate the world the same way: chunks y
 - In a world updated from 10.2.x, torches that Realistic Torches had put out come back lit and won't burn out; newly placed torches do.
 
 ### 10.2.4: Guards and Plasma Blades (`Ashfall-10.2.4.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Fixed**
 - Guards no longer take Plasma Blades. In a guard's hands the blade never used charge, never wore its crystal and always hit at full power. A guard already holding one hands it back to its leader, or puts it down where it never despawns.
 
 ### 10.2.3: Sealed ward fix (`Ashfall-10.2.3.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Fixed**
 - Zombies, bosses included, could wear down the sealed iron doors of Patient Zero's deep ward and open it before Mission was reclaimed. Those doors now hold until the ward unseals, then wear like any other door.
 
 ### 10.2.2: Balance fixes (`Ashfall-10.2.2.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Changed**
 - **Storm Repeater:** fires 400 a minute (was 600) and uses 2 energy and 7 heat per shot, so it no longer beats every other gun at everything. The Lancer cools faster.
@@ -87,7 +93,7 @@ A world can move between releases that generate the world the same way: chunks y
 - The guide's horde-tier days and the zombie-cap text ("day 120") now match the game.
 
 ### 10.2.1: Polished Arms (`Ashfall-10.2.1.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Ashfall Polished Arms:** an optional resource pack that repaints these as dark machined gunmetal at twice the texture detail:
@@ -99,7 +105,7 @@ A world can move between releases that generate the world the same way: chunks y
   Knurled rubber grips, screws and sharp highlights replace the rust and duct tape. Each weapon keeps its shape, glow colour and stats. Turn it on in **Options → Resource Packs**; it's off by default.
 
 ### 10.2.0: Block wear, the Arc Charge and a friendly fire switch (`Ashfall-10.2.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.1.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Block wear:** zombies now wear down fortified blocks (Reinforced Planks, Barricades, reinforced, iron and copper doors, iron bars, iron blocks, obsidian). A horde on one spot gets through in seconds to a minute.
@@ -124,7 +130,7 @@ A world can move between releases that generate the world the same way: chunks y
 - Some graffiti marks dropped out of the map index.
 
 ### 10.1.0: Weapon handling, stun mode and the Flamethrower (`Ashfall-10.1.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.0.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Weapon weight:** the weapon in your hand slows you, from −3% for pistols and light melee to −15% for the Storm Repeater and Flamethrower.
@@ -141,7 +147,7 @@ A world can move between releases that generate the world the same way: chunks y
 - Picking up mobs, players and other blocks with Carry On.
 
 ### 10.0.0: Survivors (`Ashfall-10.0.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 9.12.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 9.12.0, 9.11.0, 9.10.0.
 
 **Added**
 - Survivors: living NPCs you can find, recruit and settle at your Bunker Core.
@@ -159,7 +165,7 @@ A world can move between releases that generate the world the same way: chunks y
 - Traders: reclaimed districts get a Trader at their substation, with their own stock that refills every 3 days.
 
 ### 9.12.0: Graffiti, dogs, keys and safes (`Ashfall-9.12.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.11.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.11.0, 9.10.0.
 
 **Added**
 - **Spray Can:** paints Cleared, Danger, Loot, Safehouse and arrow marks on walls. Cleared marks warn you if zombies are still inside and go stale when the building refills. Marks show on the Grid Map for your party.
@@ -173,7 +179,7 @@ A world can move between releases that generate the world the same way: chunks y
 - Weapon Parts are slightly more common in police stations, workshops and town halls.
 
 ### 9.11.0: Radio jobs, traps and lures (`Ashfall-9.11.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.10.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.10.0.
 
 **Added**
 - **Shortwave Set:** picks up timed jobs aimed at real buildings: find a stash, clear a nest, or hold a distress beacon. Rewards grow with district danger.
@@ -183,7 +189,7 @@ A world can move between releases that generate the world the same way: chunks y
 - Horde nights: a wave that couldn't find a place to spawn was lost, so some horde nights had no zombies at all. Waves now retry until they spawn.
 
 ### 9.10.0: Random police stations (`Ashfall-9.10.0.mrpack`)
-**World generation:** same as 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0.
+**World generation:** same as 1.2.0, 1.1.0, 10.3.1, 10.3.0, 10.2.4, 10.2.3, 10.2.2, 10.2.1, 10.2.0, 10.1.0, 10.0.0, 9.12.0, 9.11.0.
 
 **Changed**
 - Police stations now generate randomly in every district except the wasteland. Only the Downtown station has the armory cache.
